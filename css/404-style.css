@@ -6,6 +6,7 @@
 body {
   padding: 0;
   margin: 0;
+  background: #000;
 }
 
 #notfound {
@@ -41,7 +42,7 @@ body {
   font-size: 236px;
   font-weight: 200;
   margin: 0px;
-  color: #211b19;
+  color: #fff;
   text-transform: uppercase;
   position: absolute;
   left: 50%;
@@ -56,8 +57,8 @@ body {
   font-size: 28px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #211b19;
-  background: #fff;
+  color: #fff;
+  background: #000;
   padding: 10px 5px;
   margin: auto;
   display: inline-block;
@@ -75,14 +76,14 @@ body {
   color: #fff;
   text-transform: uppercase;
   padding: 13px 23px;
-  background: #c446da;
+  background: #D63447;
   font-size: 18px;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
 
 .notfound a:hover {
-  color: #c446da;
+  color: #D63447;
   background: #211b19;
 }
 
