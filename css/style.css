@@ -685,6 +685,27 @@ a, a:hover {
   top: -10px;
 }
 
+/* CUSTOM */
+/* Default background image for larger screens */
+.cover-v1 {
+  background-image: url(/images/header.jpg);
+}
+
+/* Media query for laptop devices (adjust the max-width as needed) */
+@media screen and (max-width: 1920px) {
+  .cover-v1 {
+    background-image: url(/images/header2.jpg);
+  }
+}
+
+/* Media query for mobile devices (adjust the max-width as needed) */
+@media screen and (max-width: 767px) {
+  .cover-v1 {
+    background-image: url(/images/mobile-header.jpg);
+  }
+}
+/* CUSTOM */
+
 .cover-v1 {
   background-size: cover;
   background-position: center center;
@@ -741,7 +762,27 @@ a, a:hover {
 .cover-v1 .container, .cover-v1 .container > .row {
   height: 100vh;
   min-height: 650px;
+ }
+
+/* CUSTOM */
+@media screen and (min-width: 1921px) {
+.cover-v1 .container, .cover-v1 .container > .row {
+  padding-top: 240px;
+ }
 }
+
+@media screen and (max-width: 1920px) {
+  .cover-v1 .container, .cover-v1 .container > .row {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .cover-v1 .container, .cover-v1 .container > .row {
+    padding-top: 0px;
+  }
+}
+/* CUSTOM */
 
 .cover-v1 .heading {
   font-size: 5rem;
@@ -774,6 +815,7 @@ a, a:hover {
 .cover-v1 .subheading {
   font-size: 33px;
   color: #fff;
+  margin-top: -20px;
 }
 
 @media (max-width: 991.98px) {
