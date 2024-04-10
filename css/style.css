@@ -773,7 +773,7 @@ a, a:hover {
 
 @media screen and (max-width: 1920px) {
   .cover-v1 .container, .cover-v1 .container > .row {
-    padding-top: 100px;
+    padding-top: 50px;
   }
 }
 
