@@ -822,7 +822,7 @@ a, a:hover {
 .cover-v1 .subheading {
   font-size: 33px;
   color: #fff;
-  margin-top: -20px;
+  margin-top: 10px;
 }
 
 @media (max-width: 991.98px) {
